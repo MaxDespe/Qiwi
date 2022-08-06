@@ -4,9 +4,9 @@
     "type": "library",
     "require": {
         "php": "^7.2|^8.0",
-        "psr/log": "*",
+        "psr/log": "^1.0*",
         "ext-json": "*",
-        "psr/container": "*",
+        "psr/container": "^2.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "license": "mit",
