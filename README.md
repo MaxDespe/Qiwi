@@ -5,7 +5,8 @@
 Изпользуется guzzle client.
  
 
-#$iAccount номер кошелька 
+/*
+$iAccount номер кошелька 
 $qwtoken - токен кошелька 
 $proxy_server = 'IP:PORT';
 $proxy_auth = 'pass:login';
@@ -16,5 +17,6 @@ $proxyesarr = array(
 'type' => $proxy_type, 
 );
 $ClientApi = new Client($iAccount, $qwtoken, $proxyesarr);
+*/
 И Вы увидите все доступные методы работы 
 
