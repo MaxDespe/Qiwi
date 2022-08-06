@@ -20,5 +20,5 @@
             "name": "Max"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
