@@ -1,5 +1,5 @@
 {
-	"name": "MaximusPprime/Qiwi",
+	"name": "maxdespe/qiwi",
 	"description": "Qiwi API Client guzzle",
 	"keywords": [
 		"Qiwi",
@@ -14,9 +14,9 @@
 	"license": "MIT",
 	"authors": [
 	     {
-		"name": "MaximusPprime",
+		"name": "MaxDespe",
 		"email": "maxtogocman@gmail.com",
-		"homepage": "https://github.com/MaximusPprime/Qiwi"
+		"homepage": "https://github.com/MaxDespe/Qiwi"
 	}
 	],
 	"require": {
