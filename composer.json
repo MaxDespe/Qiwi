@@ -1,16 +1,6 @@
 {
 	"name": "maxdespe/qiwi",
 	"description": "Qiwi API Client guzzle",
-	"keywords": [
-		"Qiwi",
-		"Methods",
-		"Objects",
-		"Exceptions",
-		"http",
-		"uri",
-		"url",
-		"psr-4"
-	],
 	"license": "MIT",
 	"authors": [
 	     {
