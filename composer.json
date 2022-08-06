@@ -2,23 +2,26 @@
 	"name": "maxdespe/qiwi",
 	"description": "Qiwi API interface Client guzzle",
 	"license": "MIT",
+	"type": "project",
 	"authors": [
-		{
-			"name": "maxdespe",
-			"email": "maxtogocman@gmail.com",
-			"homepage": "https://github.com/MaxDespe/Qiwi"
-		}
-	],
+	{
+		"name": "maxdespe",
+		"email": "maxtogocman@gmail.com",
+		"homepage": "https://github.com/MaxDespe/Qiwi"
+	}],
 	"require": {
-		"guzzlehttp/guzzle": "^7.0",
-		"psr/container": "*",
-		"ext-json": "*",
+		"php": "^7.2|^8.0",
 		"psr/log": "*",
-		"php": "^7.0"
+		"ext-json": "*",
+		"psr/container": "*",
+		"guzzlehttp/guzzle": "^7.0",
 	},
 	"autoload": {
 		"psr-4": {
-			"Qiwi\\": "src/"
+			"Qiwi\\": "src/",
+				"Qiwi\\Methods\\": "src/Entities/",
+				"Qiwi\\Objects\\": "src/Objects/",
+				"Qiwi\\Exceptions\\": "src/Exceptions/"
 		}	
 	}
 }
