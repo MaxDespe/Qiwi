@@ -1,37 +1,24 @@
 {
-	"name": "QiwiAPIClient_guzzle/Qiwi",
-    "description": "Qiwi API Client guzzle",
-    "keywords": [
-        "Qiwi",
-        "Methods",
-        "Objects",
-        "Exceptions",
-        "http",
-        "uri",
-        "url",
-        "psr-4"
-    ],
-    "license": "MIT",
+    "name": "maxdespe/qiwi",
+    "description": "Qiwi API interface Client guzzle",
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0",
+        "psr/log": "*",
+        "ext-json": "*",
+        "psr/container": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Qiwi\\": "src/"
+        }
+    },
     "authors": [
-	     {
-            "name": "Max",
-            "email": "maxtogocman@gmail.com",
-            "homepage": "https://github.com/MaximusPprime/QiwiAPIClient_guzzle"
+        {
+            "name": "Max"
         }
     ],
-	"require": {
-		"guzzlehttp/guzzle": "^7.0",
-		"psr/container": "*",
-		"ext-json": "*",
-		"psr/log": "*",
-		"php": "^7.0"
-	},
-	"autoload": {
-        "psr-4": {
-            "Qiwi\\": "src/",
-			"Qiwi\\Methods\\": "src/Entities/",
-			"Qiwi\\Objects\\": "src/Objects/",
-			"Qiwi\\Exceptions\\": "src/Exceptions/"
-        }	
-	}
+    "minimum-stability": "stable"
 }
