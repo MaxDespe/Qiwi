@@ -12,7 +12,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Qiwi\\": "src/"
+            "MaxDespe\\Qiwi\\": "src/"
         }
     },
     "authors": [
