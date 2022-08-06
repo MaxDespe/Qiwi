@@ -1,24 +1,24 @@
 {
 	"name": "MaximusPprime/Qiwi",
-    "description": "Qiwi API Client guzzle",
-    "keywords": [
-        "Qiwi",
-        "Methods",
-        "Objects",
-        "Exceptions",
-        "http",
-        "uri",
-        "url",
-        "psr-4"
-    ],
-    "license": "MIT",
-    "authors": [
+	"description": "Qiwi API Client guzzle",
+	"keywords": [
+		"Qiwi",
+		"Methods",
+		"Objects",
+		"Exceptions",
+		"http",
+		"uri",
+		"url",
+		"psr-4"
+	],
+	"license": "MIT",
+	"authors": [
 	     {
-            "name": "MaximusPprime",
-            "email": "maxtogocman@gmail.com",
-            "homepage": "https://github.com/MaximusPprime/Qiwi"
-        }
-    ],
+		"name": "MaximusPprime",
+		"email": "maxtogocman@gmail.com",
+		"homepage": "https://github.com/MaximusPprime/Qiwi"
+	}
+	],
 	"require": {
 		"guzzlehttp/guzzle": "^7.0",
 		"psr/container": "*",
@@ -27,11 +27,11 @@
 		"php": "^7.0"
 	},
 	"autoload": {
-        "psr-4": {
-            "Qiwi\\": "src/",
-			"Qiwi\\Methods\\": "src/Entities/",
-			"Qiwi\\Objects\\": "src/Objects/",
-			"Qiwi\\Exceptions\\": "src/Exceptions/"
-        }	
-	}
+	"psr-4": {
+		"Qiwi\\": "src/",
+		"Qiwi\\Methods\\": "src/Entities/",
+		"Qiwi\\Objects\\": "src/Objects/",
+		"Qiwi\\Exceptions\\": "src/Exceptions/"
+	}	
+}
 }
