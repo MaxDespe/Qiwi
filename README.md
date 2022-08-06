@@ -1,5 +1,5 @@
-# QiwiAPIClient_guzzle
- Qiwi API Client guzzle
+# Qiwi API interface Client guzzle
+Qiwi API interface Client guzzle
  Клиент QIWI кошелька работающий через прокси сервер.
  Каждому кошельку должен быть присвоен свой прокси сервер. Без прокси работать не будет. 
 Изпользуется guzzle client.
