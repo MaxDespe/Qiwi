@@ -1,13 +1,13 @@
 {
 	"name": "maxdespe/qiwi",
-	"description": "Qiwi API Client guzzle",
+	"description": "Qiwi API interface Client guzzle",
 	"license": "MIT",
 	"authors": [
-	     {
-		"name": "MaxDespe",
-		"email": "maxtogocman@gmail.com",
-		"homepage": "https://github.com/MaxDespe/Qiwi"
-	}
+		{
+			"name": "maxdespe",
+			"email": "maxtogocman@gmail.com",
+			"homepage": "https://github.com/MaxDespe/Qiwi"
+		}
 	],
 	"require": {
 		"guzzlehttp/guzzle": "^7.0",
@@ -19,6 +19,6 @@
 	"autoload": {
 		"psr-4": {
 			"Qiwi\\": "src/"
-	}	
-}
+		}	
+	}
 }
