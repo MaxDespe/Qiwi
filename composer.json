@@ -1,4 +1,24 @@
 {
+	"name": "QiwiAPIClient_guzzle/Qiwi",
+    "description": "Qiwi API Client guzzle",
+    "keywords": [
+        "Qiwi",
+        "Methods",
+        "Objects",
+        "Exceptions",
+        "http",
+        "uri",
+        "url",
+        "psr-4"
+    ],
+    "license": "MIT",
+    "authors": [
+	     {
+            "name": "Max",
+            "email": "maxtogocman@gmail.com",
+            "homepage": "https://github.com/MaximusPprime/QiwiAPIClient_guzzle"
+        }
+    ],
 	"require": {
 		"guzzlehttp/guzzle": "^7.0",
 		"psr/container": "*",
